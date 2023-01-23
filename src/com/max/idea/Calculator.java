@@ -12,13 +12,13 @@ public class Calculator {
         System.out.println("Введи второе число: ");
         int y = in.nextInt();
         if (Objects.equals(action, "+"))
-            System.out.println(x+y);
+            System.out.println("Результат: " + (x+y));
         else if (Objects.equals(action, "-"))
-            System.out.println(x-y);
+            System.out.println("Результат: " + (x-y));
         else if (Objects.equals(action, "*"))
-            System.out.println(x*y);
+            System.out.println("Результат: " + (x*y));
         else if (Objects.equals(action, "/"))
-            System.out.println(x/y);
+            System.out.println("Результат: " + (x/y));
         else
             System.out.println("Высшая математика не для этого калькулятора");
     }
