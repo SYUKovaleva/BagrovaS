@@ -38,7 +38,7 @@ public class Converter {
                 System.out.println("Результат:\nТонны: " + (x/1000000000) + "\nКилограммы: " + (x/1000000) + "\nГраммы: " + (x/1000) + "\nМиллиграммы: " + x);
             }
             //Ошибка
-            else {System.out.println("Мы такого варианта не предлагали");return;}
+            else {System.out.println("Мы такого варианта не предлагали");}
         }
 
         //Пользователь выбрал расстояние
@@ -72,12 +72,12 @@ public class Converter {
             }
 
             //Ошибка
-            else {System.out.println("Мы такого варианта не предлагали");return;}
+            else {System.out.println("Мы такого варианта не предлагали");}
         }
 
         //Ошибка
         else {
-            System.out.println("Ваш выбор не ясен");return;}
+            System.out.println("Ваш выбор не ясен");}
 
     }
 }
